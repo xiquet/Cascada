@@ -4,17 +4,17 @@
 p {
     background-color: yellow;
 } */
-.rojo {
+/* .rojo {
     background-color: red;
 }
 div {
     border: black 3px solid; 
     color: red;
-}
-p {
+} */
+/* p {
     color: blue;
-}
-p#nuevo {
+} */
+/* p#nuevo {
     color: green;
   }
 div#viejo {
@@ -29,4 +29,17 @@ div p#nuevo {
   
 div#viejo p#nuevo {
     color: black;
-  }
+  } */
+div.viejo {
+  border: black 3px solid;
+  margin: 2px;
+  padding: 2px;
+}
+
+div p {
+  color: black;
+}
+
+div.viejo p.uelo {
+  color: green;
+}
