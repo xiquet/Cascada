@@ -6,15 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilos.css">
     <title>Cascada</title>
-    <style>
-        p { background-color: green; }
-    </style>
+    
 </head>
 
 <body>
     <header><h1>ESTILOS EN CASCADA</h1></header>
-    <p>Esto es una párrafo normal y corriente.</p>
-    <p style="background-color:red">Este párrafo tiene el fondo de color rojo</p>
+   <main>
+        <section>
+            <p>Esto es una párrafo normal y corriente.</p>
+            <p class="rojo">Este párrafo tiene el fondo de color rojo</p>
+        </section> 
+        <section>
+            <div>
+                <p>Esto es un párrafo dentro de una división.</p>
+            </div>
+        </section>
+        <section>
+            <p id="nuevo">Esto es un párrafo con atributo id "nuevo"</p>
+            <p>Esto es un párrafo sin atributo id.</p>
+        </section>
+        <section>
+            <div id="viejo">
+                <p id="nuevo">Esto es un párrafo con atributo id "nuevo" dentro de una división con atributo id "viejo"</p>
+            </div>
+            
+            <p>Esto es un párrafo sin atributo id.</p>
+        </section>
+   </main> 
 </body>
 
 </html>

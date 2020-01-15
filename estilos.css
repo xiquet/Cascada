@@ -1,6 +1,32 @@
-body {
+/* body {
     background-color:lightblue;
 }
 p {
     background-color: yellow;
+} */
+.rojo {
+    background-color: red;
 }
+div {
+    border: black 3px solid; 
+    color: red;
+}
+p {
+    color: blue;
+}
+p#nuevo {
+    color: green;
+  }
+div#viejo {
+    border: black 3px solid;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+div p#nuevo {
+    color: red;
+  }
+  
+div#viejo p#nuevo {
+    color: black;
+  }
